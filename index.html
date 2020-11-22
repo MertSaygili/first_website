@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="İnformation About Piyon Holding">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" >
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://kit.fontawesome.com/5bbbd65262.js" crossorigin="anonymous"></script>
+	<title>Piyon Holding</title>
+	<style>
+	.header-table1{
+		border-style:10px;
+		border-style:hidden;
+		border-radius:10px;
+		height:230px; 
+		margin-left:10%; 
+		width:70%; 
+		background-color:orange;
+	}
+	.enterance{
+		font-size:370%;
+		color:darkred;
+		font-family:Brush Script MT, Brush Script Std, cursive;
+		position:absolute;
+		left:13%;
+	}
+	.enterance:hover{
+		color:cyan;
+	}
+	.table-icon{
+		border-style:1px;
+		border-style:hidden;
+		border-color:black;
+		width:35%;
+		height:100px;
+		position:absolute;
+		left:45%;
+		top:7.5%;
+	}
+	.fas:hover{
+		color:yellow;
+	}
+	.a-word{
+		font-size:23px; 
+		color:white;
+		position:absolute;
+		left:50%;
+		top:18%;
+	}
+	.a-word:hover{
+		color:purple;
+	}
+	.nav-table1{
+		border-style:10px;
+		border-style:double;
+		background-color:#333;
+		margin-top:1%;
+		height:80px;
+		width:89.10%;
+		margin:1%;
+		border-radius:10px;
+	}
+	.special-list1{
+		list-style-type:none;
+		display:inline;
+		font-size:150%;
+		padding-left:0%;
+		padding-right:5%;
+		padding-top:5%;
+		padding-bottom:2.5%;
+		font-family:
+	}
+	.special-list2{
+		text-decoration:none;
+		color:white;
+	}
+	.special-list2:visited{
+		text-decoration:none;
+	}
+	.special-list2:hover{
+		text-decoration:underline;
+		background-color:darkred;
+	}
+	.special-list2:active{
+		text-decoration:line-through;
+		color:green;
+	}
+	.aside-left{
+		border-style:1px;
+		border-style:hidden;
+		background-color:white;
+		border-radius:10px;
+		margin-top:0.5%;
+		height:700px;
+		width:20%;
+		margin-left:1%;
+		float:left;
+		overflow-y:auto;
+	}
+	.aside-h2{
+		margin-left:5%;
+		font-size:190%;
+		color:white;
+		margin-left:8.5%;
+	}
+	.aside-left-li1{
+		font-size:130%;
+		margin-left:0.1%;
+		margin-top:10%;
+	}
+	.aside-left-li2{
+		font-size:130%;
+		margin-left:0.1%;
+		margin-top:11%;
+	}
+	.aside-left-li3{
+		font-size:130%;
+		margin-left:0.1%;
+		margin-top:12%;
+	}
+	.aside-left-li4{
+		font-size:130%;
+		margin-left:0.1%;
+		margin-top:13%;
+	}
+	.aside-left-li5{
+		font-size:130%;
+		margin-left:0.1%;
+		margin-top:14%;
+	}
+	.aside-left-li6{
+		font-size:130%;
+		margin-left:0.1%;
+		margin-top:15%;
+	}
+	.aside-left-li7{
+		font-size:130%;
+		margin-left:0.1%;
+		margin-top:16%;
+	}
+	.aside-link{
+		color:#FFD54F;
+	}
+	.aside-link:visited{
+
+	}
+	.aside-link:hover{
+		color:darkred;
+		text-decoration:underline;
+		text-decoration-color:;
+	}
+	.aside-link:active{
+		text-decoration:line-through;
+	}
+
+	.main-content{
+		border-style:1px;
+		border-style:hidden;
+		border-color:black;
+		background-color:white;
+		border-radius:10px;
+		margin-top:0.5%;
+		margin-left:5%;
+		height:700px;
+		width:64.2%; 
+		float:left;
+		background-color:#BCAAA4;
+	}
+	.img-style{
+		margin-left:20%;
+		margin-top:1%;
+		width:60%;
+		height:400px;
+	}
+	.main-table{
+		border-style:1px;
+		border-style:hidden;
+		border-color:black;
+		border-radius:10px;
+		width:80%;
+		height:200px;
+		margin-left:10%;
+		overflow:auto;
+	}
+	.main-writing{
+		font-size:120%;
+		padding:2%;
+		color:black;
+		text-indent:3%;
+		font-family:Cormorant Infant;
+		line-height:150%;
+	}
+	.biz{
+		text-decoration:none;
+	}
+	.footer-table1{
+		border-style:1px;
+		border-style:hidden;
+		border-color:black;
+		border-radius:10px;
+		background-color:white;
+		width:88.4%; 
+		height:700px; 
+		position:absolute; 
+		top:1050px;
+		margin-top:3%;
+		margin-left:1%;
+	}
+	.copypast{
+		border-style:2px;
+		border-style:hidden;
+		border-color:brown;
+		width:99.7%;
+		height:160px;
+		position:absolute;
+		top:89.7%;
+	}
+	.media-table{
+		border-style:1px;
+		border-color:black;
+		border-style:hidden;
+		width:99.7%;
+		height:80px;	
+	}
+	.media1{
+		width:6%;
+		height:30px;
+		position:absolute;
+		left:78%;
+		top:25%;
+	}
+	.media2{
+		width:6%;
+		height:30px;
+		position:absolute;
+		left:83%;
+		top:25%;
+	}
+	.media3{
+		width:6%;
+		height:30px;
+		position:absolute;
+		left:87%;
+		top:25%;
+	}
+	.media4{
+		width:6%;
+		height:30px;
+		position:absolute;
+		left:93%;
+		top:25%;
+	}
+	@media screen and (max-width:900px){
+	.header-table1{
+		border-style:10px;
+		border-style:solid;
+		height:220px; 
+		width:94.10%; 
+		background-color:orange;
+		margin-left:1%;
+	}
+	.enterance{
+		width:30%;
+		text-align:left;
+		font-size:240%;
+		color:darkred;
+		padding:2%;
+		margin-left:1%;
+		margin-bottom:1%;
+	}
+	.table-icon{
+		border-style:1px;
+		border-style:hidden;
+		border-color:black;
+		width:40%;
+		height:100px;
+		position:absolute;
+		left:55%;
+		top:5%;
+	}
+	.fa-chess-pawn{ 
+		position:absolute; 
+		top:4%; 
+		left:10%;
+	}
+	.fa-chess-queen{
+		position:absolute; 
+		top:4%; 
+		right:10%;
+	}
+	.a-word{
+		font-size:23px; 
+		color:white;
+		position:absolute;
+		left:6%;
+		top:17%;
+	}
+	.nav-table1{
+		border-style:10px;
+		border-style:solid;
+		background-color:#333;
+		margin-top:0.5%;
+		height:250px;
+		width:94.10%;
+		margin:1%;
+	}
+	.special-list1{
+		list-style-type:none;
+		display:block;
+		font-size:165%;
+		padding-left:0%;
+		padding-right:0%;
+		padding-top:0%;
+		padding-bottom:0%;
+		text-align:left;
+	}
+	.aside-left{
+		border-style:1px;
+		border-style:solid;
+		background-color:white;
+		margin-top:0.5%;
+		height:600px;
+		width:94.1%;
+		margin-left:1%;
+		overflow-y:auto;
+		display:inline;
+
+	}
+	.aside-h2{
+		margin-left:5%;
+		font-size:200%;
+		color:white;
+		margin-left:8.5%;
+	}
+	.aside-left-li1{
+		font-size:130%;
+		margin-left:0.1%;
+		margin-top:10%;
+	}
+	.aside-left-li2{
+		font-size:130%;
+		margin-left:0.1%;
+		margin-top:11%;
+	}
+	.aside-left-li3{
+		font-size:130%;
+		margin-left:0.1%;
+		margin-top:12%;
+	}
+	.aside-left-li4{
+		font-size:130%;
+		margin-left:0.1%;
+		margin-top:13%;
+	}
+	.aside-left-li5{
+		font-size:130%;
+		margin-left:0.1%;
+		margin-top:14%;
+	}
+	.aside-left-li6{
+		font-size:130%;
+		margin-left:0.1%;
+		margin-top:15%;
+	}
+	.aside-left-li7{
+		font-size:130%;
+		margin-left:0.1%;
+		margin-top:16%;
+	}
+	.main-content{
+		border-style:1px;
+		border-style:solid;
+		border-color:black;
+		background-color:white;
+		margin-left:1%;
+		margin-top:1%;
+		height:700px;
+		width:94.1%; 
+		background-color:#BCAAA4;
+		display:inline;
+	}
+	.footer-table1{
+		border-style:1px;
+		border-style:solid;
+		border-color:black;
+		background-color:white;
+		width:90%; 
+		height:700px; 
+		position:absolute; 
+		top:1800px;
+		margin-top:5%;
+		margin-left:1%;
+	}
+	.copypast{
+		border-style:2px;
+		border-style:hidden;
+		border-color:brown;
+		width:99.7%;
+		height:73px;
+		position:absolute;
+		top:80.7%;
+	}
+	.media1{
+		width:6%;
+		height:30px;
+		position:absolute;
+		left:78%;
+		top:96%;
+	}
+	.media2{
+		width:6%;
+		height:30px;
+		position:absolute;
+		left:83%;
+		top:96%;
+	}
+	.media3{
+		width:6%;
+		height:30px;
+		position:absolute;
+		left:87%;
+		top:96%;
+	}
+	.media4{
+		width:6%;
+		height:30px;
+		position:absolute;
+		left:93%;
+		top:96%;
+	}
+	.copyright-place{
+		margin-left:7%; 
+		position:absolute; 
+		top:70%; 
+		font-size:150%;
+	}
+}	
+	</style>
+</head>
+<body style="background-color:#4DD0E1">
+	<header>
+		<div class="header-table1">
+			<h1 class="enterance">Piyon Holding</h1>
+			<div class="table-icon">
+				<i class="fas fa-chess-pawn fa-3x"></i>
+				<i class="fas fa-chess-queen fa-3x"></i>
+			</div>
+			<p class="a-word">Vezir olma yolunda yanındayız!</p>	
+		</div>
+	</header>
+	<nav>
+		<div class="nav-table1">
+			<ul>
+				<li class="special-list1"><a class="special-list2" href="index.html" title="AnaSayfa" style="background-color:darkred;">Ana Sayfa</a></li>
+				<li class="special-list1"><a class="special-list2" href="Hizmetlerimiz.html" title="Hizmetlerimiz">Hizmetlerimiz</a></li>
+				<li class="special-list1"><a class="special-list2" href="Kurumsal.html" title="Kurumsal">Kurumsal</a></li>
+				<li class="special-list1"><a class="special-list2" href="Kariyer.html" title="Kariyer">Kariyer</a></li>
+				<li class="special-list1"><a class="special-list2" href="İletişim.html" title="İletişim">İletişim</a></li>
+			</ul>
+		</div>
+	</nav>
+	<aside>
+		<div class="aside-left" style="background-color:green;">
+		<h2 class="aside-h2">Şirketlerimiz</h2>
+		<br>
+		<ul  style align="left">
+			<li class="aside-left-li1"><a class="aside-link" href="https://www.microsoft.com/en-us" title="Microsoft Ana Sayfa" target="_blank">Microsoft</a></li>
+			<hr>
+			<li class="aside-left-li2"><a class="aside-link" href="https://www.apple.com" title="Apple" target="_blank">Apple inc.</a></li>
+			<hr>
+			<li class="aside-left-li3"><a class="aside-link" href="https://tr-tr.facebook.com/login/" title="Facebook Giriş" target="_blank">Facebook</a></li>
+			<hr>
+			<li class="aside-left-li4"><a class="aside-link" href="https://www.amazon.com.tr/" title="Amazon Ana Sayfa" target="_blank">Amazon inc.</a></li>
+			<hr>
+			<li class="aside-left-li5"><a class="aside-link" href="https://www.google.com/" title="Google Ana Sayfa" target="_blank">Google</a></li>
+			<hr>
+			<li class="aside-left-li6"><a class="aside-link" href="https://www.jnjconsumer.com.tr/tr" title="Johnson & Johnson Ana Sayfa" target="_blank">Johnson & Johnson</a></li>
+			<hr>
+			<li class="aside-left-li7"><a class="aside-link" href="https://www.turkishairlines.com" title="Türk Hava Yolları Ana Sayfa" target="_blank">Türk Hava Yolları A.O</a></li>	
+			<hr>
+		</ul>
+		</div>
+	</aside>
+	<article>
+		<div class="main-content">
+			<img class="img-style" src="https://www.eliteworldhotels.com.tr/fa/blog/is-hayati/ImageHandler.ashx?path=~/Resources/CKEditor/Blog/FtDescription/2017-06-29@17-49-58-731_girisimcilik-ozellikleri-1.jpg">
+			<div class="main-table">
+				<p class="main-writing">       Piyon olmaktan sıkılmadın mı? Başkalarının seni iteleyip kalkmasından, hayatın hızına ayak uyduramamaktan insanların seni tanımadıkları halde senin hakkında seni tanıyor gibi konuşmalarından bıkmadın mı? Aynaya baktığında gördüğün kişinin kim olduğunu bilmiyor musun? <a  class="biz" href="Hizmetlerimiz.html" title="Us" target="_blank"><b style="color:darkgreen;">Biz</b></a> sana aynaya baktığında gördüğün kişinin kim olduğunu, kendini keşfetmeni, yeteneklerinin neler olduğunu bulmayı ve yeteneklerinde ustalaşmayı, zamanı kendi lehine kullanmayı öğreteceğiz. Senin hayalini kendi hayalimiz gibi sırtlanıp, senin vezir olmanda en büyük destekçin olacağız. </p>
+			</div>
+		</div>
+	</article>
+	<footer>
+		<div class="footer-table1">
+			<img src="https://aodevelopers.com/wp-content/uploads/2014/08/banner1-1.jpg" alt="Our Goal"  style="width:100%; height:700px; z-index:-1;">
+			<div class="copypast">
+				<div class="media-table">
+					<p  class="copyright-place"style=" text-align:center; font-size:150%;">Copyright©</p>
+					<a href="https://www.facebook.com/" target="_blank"><img class="media1" src="https://1000logos.net/wp-content/uploads/2016/11/Facebook-logo.png"></a>
+					<a href="https://www.twitter.com/" target="_blank"><img class="media2" src="https://marka-logo.com/wp-content/uploads/2020/04/Twitter-Logo.png" ></a> 
+					<a href="https://www.instagram.com/" target="_blank"><img class="media3" src="https://cdn0.iconfinder.com/data/icons/popular-social-media-colored/48/JD-08-512.png" ></a> 
+					<a href="https://tr.linkedin.com/" target="_blank"><img class="media4" src="https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/linkedin_circle-512.png" ></a> 
+				</div>
+			</div>
+	</footer>
+</body>
+</html>
